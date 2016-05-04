@@ -1,0 +1,11 @@
+obj
+bin
+packages
+node_modules
+bower_components
+npm-debug.log
+.vs
+tmp
+temp
+vwd.webinfo
+TestResults

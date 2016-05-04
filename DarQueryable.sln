@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F43B0D1B-6029-4AC3-8C49-5745C77C1632}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5DA34703-A8B5-4EB8-9541-4BA1459CDE2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarQueryableTest", "test\DarQueryableTest\DarQueryableTest.csproj", "{2E51F6F4-78F6-4C58-B6CB-5AA149409163}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarQueryable", "src\DarQueryable\DarQueryable.csproj", "{F33077D7-9456-4B28-9A9F-39AEE814EC2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{654E41E1-CD6C-4EBB-9211-EDDA96CB8E04}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E51F6F4-78F6-4C58-B6CB-5AA149409163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E51F6F4-78F6-4C58-B6CB-5AA149409163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E51F6F4-78F6-4C58-B6CB-5AA149409163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E51F6F4-78F6-4C58-B6CB-5AA149409163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33077D7-9456-4B28-9A9F-39AEE814EC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33077D7-9456-4B28-9A9F-39AEE814EC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33077D7-9456-4B28-9A9F-39AEE814EC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33077D7-9456-4B28-9A9F-39AEE814EC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E51F6F4-78F6-4C58-B6CB-5AA149409163} = {5DA34703-A8B5-4EB8-9541-4BA1459CDE2F}
+		{F33077D7-9456-4B28-9A9F-39AEE814EC2B} = {F43B0D1B-6029-4AC3-8C49-5745C77C1632}
+	EndGlobalSection
+EndGlobal
